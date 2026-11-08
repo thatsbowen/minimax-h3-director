@@ -1,0 +1,32 @@
+# 构建与依赖产物
+node_modules/
+dist/
+build/
+out/
+release/
+
+# 程序本体与安装包（体积超 GitHub 单文件限制，走 Releases）
+*.exe
+*.msi
+*.zip
+*.7z
+*.dll
+*.pak
+*.bin
+*.dat
+*.asar
+
+# 运行时数据（含用户配置、历史与素材，切勿提交）
+data/
+!data/.gitkeep
+*.log
+
+# 本地环境与编辑器
+.env
+.env.*
+*.local
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
