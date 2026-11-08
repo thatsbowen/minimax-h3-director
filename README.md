@@ -11,6 +11,8 @@
 
 **一句话，成为一段电影。** MiniMax H3导演台是一个基于 MiniMax H3 API 的**本地导演工作台**：在桌面端写下一句画面描述，配置好镜头参数与参考素材，交给云端算力渲染成片，成品自动归档到本机。**渲染算力全在云端，与你的显卡、内存、硬盘配置无关；生成的内容全部落在本地，不依赖任何云端空间。**
 
+> **关于“未签名”提示**：本项目为个人开发，未购买商业代码签名证书，`MiniMax H3导演台.exe` 与分发包均**无数字签名**。首次运行时 Windows 可能提示「未知发布者」或「Windows 已保护你的电脑」，属系统对无签名程序的常规提示，**不代表程序有问题，不影响任何功能正常使用**——点击「更多信息 → 仍要运行」即可。
+
 > 程序包体积较大（约 290 MB，含 188 MB 主程序，超出 GitHub 单文件 100 MB 限制），故**不纳入本仓库**，请在 Releases 中获取可执行包。本仓库提供使用文档、界面截图与版本说明。
 
 ## 核心功能
@@ -104,6 +106,8 @@ MIT License。如需商用分发或二次开发授权，请通过仓库 Issue �
 [中文](#minimax-h3导演台--minimax-h3-director) | [English](#minimax-h3-director--english)
 
 **One sentence in, one film out.** MiniMax H3 Director is a **local director's workbench** built on the MiniMax H3 API: describe the shot on your desktop, set camera parameters and reference assets, and let cloud compute render it — the finished video is archived on your own machine. **Rendering runs entirely in the cloud, so it is independent of your GPU, RAM or disk; every generated asset stays local and needs no cloud storage.**
+
+> **A note on signing**: this is an independently developed project without a commercial code-signing certificate, so neither the executable nor the distribution package is **digitally signed**. On first launch Windows may show "Unknown publisher" or "Windows protected your PC" — the standard warning for unsigned software, **not an indication of a problem, and it does not affect any functionality**. Choose "More info → Run anyway".
 
 > The application bundle is large (about 290 MB, including a 188 MB main executable, above GitHub's 100 MB per-file limit), so it is **not** part of this repository. Download the runnable build from Releases; this repository carries the documentation, UI screenshots and version notes.
 
